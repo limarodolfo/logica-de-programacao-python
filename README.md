@@ -30,9 +30,9 @@ Caso contrário, vamos ver agora um passo a passo da instalação (depois irei a
 8. Após a instalação ser concluída, você pode abrir o prompt de comando (no Windows, pressione Win + R, digite "cmd" e pressione Enter) e digitar "python" para verificar se o Python foi instalado corretamente, como fizemos inicialmente.
 
 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+------
 
-####Linguagem Python
+#### Linguagem Pyton
 
 ##### Interpretador IDLE
 
@@ -40,7 +40,9 @@ Bem... há varias formas de utilizarmos na prática o python. Aqui, utilizei o I
 
 *IDLE* oferece uma interface gráfica simples que facilita a interação com o interpretador Python. Ele inclui recursos como um editor de texto com realce de sintaxe, suporte para execução interativa de código, histórico de comandos, visualização de resultados, depuração passo a passo, a capacidade de abrir múltiplos editores de código, autocompletar, exibição da árvore de análise sintática e suporte a extensões de terceiros. Uma das principais características do IDLE é a capacidade de executar código Python interativamente, o que significa que você pode digitar instruções e ver os resultados imediatamente. 
 
-##### Variáveis e Atribuição de Valores
+------
+
+##### Resumão Sobre Variáveis e Atribuição de Valores
 
 **Declaração de variáveis:**
 
@@ -55,7 +57,7 @@ Bem... há varias formas de utilizarmos na prática o python. Aqui, utilizei o I
 
 4. **Reatribuição de valores:**
    Você pode alterar o valor de uma variável simplesmente atribuindo um novo valor a ela.
-5. **Tipos de dados - Tipos Primitivos :**
+5. **Tipos de dados**
    As variáveis em Python podem conter diferentes tipos de dados, como 
    inteiros (int), números de ponto flutuante (float), strings (str), 
    listas (list), dicionários (dict), entre outros. O tipo de dado é 
