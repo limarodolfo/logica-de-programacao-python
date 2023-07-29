@@ -1,4 +1,4 @@
-### Lógica de Programação 
+# Lógica de Programação 
 
 Este repositório tem como objetivo compartilhar um pouco dos meus estudos de lógica de programação utilizando o Python. No momento, vou passar por algumas informações introdutórias sobre, mas, deixarei um link com a história e detalhes sobre a mesma. 
 
@@ -32,7 +32,7 @@ Caso contrário, vamos ver agora um passo a passo da instalação (depois irei a
 
 ------
 
-#### Linguagem Pyton
+### Linguagem Pyton
 
 ##### Interpretador IDLE
 
@@ -42,7 +42,7 @@ Bem... há varias formas de utilizarmos na prática o python. Aqui, utilizei o I
 
 ------
 
-#### Resumão Sobre Variáveis e Atribuição de Valores
+### Resumão Sobre Variáveis e Atribuição de Valores
 
 **Declaração de variáveis:**
 
@@ -67,11 +67,11 @@ Bem... há varias formas de utilizarmos na prática o python. Aqui, utilizei o I
 
 ------
 
-#### Expressões em Python
+### Expressões em Python
 
 Expressões são combinações válidas de variáveis, constantes e operadores que retornam um resultado após a sua avaliação. Existem três tipos principais de expressões em Python: aritméticas, lógicas e relacionais.
 
-**Expressões Aritméticas:**
+#### **Expressões Aritméticas:**
 
 - Operam sobre valores inteiros ou reais.
 - Os operadores aritméticos são: + (adição), - (subtração), * (multiplicação), / (divisão), // (parte inteira da divisão), % (resto da divisão) e ** (exponenciação).
@@ -91,7 +91,7 @@ Exemplos:
   ​
 
 
-##### Expressões Lógicas:
+#### Expressões Lógicas:
 
 - São formadas por operadores lógicos: 'or' (ou), 'and' (e) e 'not' (não).
 - O resultado da avaliação é sempre True (verdadeiro) ou False (falso).
@@ -103,7 +103,9 @@ Exemplos:
 - not (5 == 3) → Resultado: True
 - (2 > 1) or (3 < 1) → Resultado: True
 
-3. **Expressões Relacionais:**
+
+
+#### Expressões Relacionais:
 
 - São usadas para fazer comparações entre expressões.
 - Os operadores relacionais são: == (igual a), > (maior que), < (menor que), >= (maior ou igual a), <= (menor ou igual a) e != (diferente de).
