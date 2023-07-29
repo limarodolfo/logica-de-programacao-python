@@ -67,23 +67,75 @@ Bem... há varias formas de utilizarmos na prática o python. Aqui, utilizei o I
 
 ------
 
+#### Expressões em Python
+
+Expressões são combinações válidas de variáveis, constantes e operadores que retornam um resultado após a sua avaliação. Existem três tipos principais de expressões em Python: aritméticas, lógicas e relacionais.
+
+**Expressões Aritméticas:**
+
+- Operam sobre valores inteiros ou reais.
+- Os operadores aritméticos são: + (adição), - (subtração), * (multiplicação), / (divisão), // (parte inteira da divisão), % (resto da divisão) e ** (exponenciação).
+- A precedência dos operadores é: primeiro **, depois *, /, // e %, e por último + e -.
+- Parênteses podem ser usados para forçar a avaliação de operadores com menor precedência.
+
+Exemplos:
+
+- 5 + 3 → Resultado: 8
+
+- 10 * 2 / 5 → Resultado: 4.0
+
+- 2 ** 3 + 4 → Resultado: 12
+
+- (5 + 3) * 2 → Resultado: 16
+
+  ​
 
 
+##### Expressões Lógicas:
 
+- São formadas por operadores lógicos: 'or' (ou), 'and' (e) e 'not' (não).
+- O resultado da avaliação é sempre True (verdadeiro) ou False (falso).
+- A precedência é: primeiro 'not', depois 'and', e por último 'or'.
 
+Exemplos:
 
+- True and False → Resultado: False
+- not (5 == 3) → Resultado: True
+- (2 > 1) or (3 < 1) → Resultado: True
 
+3. **Expressões Relacionais:**
 
+- São usadas para fazer comparações entre expressões.
+- Os operadores relacionais são: == (igual a), > (maior que), < (menor que), >= (maior ou igual a), <= (menor ou igual a) e != (diferente de).
+- O resultado da comparação é True se a condição for satisfeita, ou False caso contrário.
 
+Exemplos:
 
+- 5 == 5 → Resultado: True
+- 10 > 5 → Resultado: True
+- 7 <= 6 → Resultado: False
 
+É importante entender a ordem de precedência dos operadores para avaliar corretamente as expressões. Se necessário, é possível usar parênteses para controlar a ordem de avaliação.
 
-
-
+Lembre-se de que as expressões são fundamentais para realizar cálculos, comparações e testes em Python, tornando-se uma parte essencial na programação com essa linguagem.
 
 
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+
+
+
+
+
+
+
+
+
+
+
+.........................................................................................................................................................................................
 
 Glossário:
 
