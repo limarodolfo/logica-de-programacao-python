@@ -10,4 +10,4 @@ xp = 1500
 
 xp = xp + 1500
 
-print("Seu personagem é,", nome ,"do tipo, ", tipo ,"e xp:", xp)
+print("Seu personagem é,", nome,"do tipo, ", tipo,"e xp:", xp)
