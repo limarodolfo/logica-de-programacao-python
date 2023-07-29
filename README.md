@@ -63,7 +63,7 @@ Bem... há varias formas de utilizarmos na prática o python. Aqui, utilizei o I
    listas (list), dicionários (dict), entre outros. O tipo de dado é 
    inferido automaticamente quando você atribui um valor à variável.
 
-<Exemplos em código>
+<Exemplos em código - ex001>
 
 ------
 
@@ -85,6 +85,8 @@ Exemplos:
 - 2 ** 3 + 4 → Resultado: 12
 - (5 + 3) * 2 → Resultado: 16
 
+<Exemplos em código - ex002>
+
 <center>.....................................................................................................................................................................</center>
 
 #### Expressões Lógicas:
@@ -98,6 +100,8 @@ Exemplos:
 - True and False → Resultado: False
 - not (5 == 3) → Resultado: True
 - (2 > 1) or (3 < 1) → Resultado: True
+
+<Exemplos em código - ex003>
 
 <center>.....................................................................................................................................................................</center>
 
@@ -117,21 +121,35 @@ Exemplos:
 
 Lembre-se de que as expressões são fundamentais para realizar cálculos, comparações e testes em Python, tornando-se uma parte essencial na programação com essa linguagem.
 
-
+<Exemplos em código - ex001, ex002, ex003>
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
+### Controle de Fluxo
 
+O controle de fluxo em Python é essencial para direcionar a execução do código, permitindo que certas partes do programa sejam executadas apenas sob determinadas condições ou repetidas várias vezes. As principais estruturas de controle de fluxo em Python são:
 
+#### Estrutura Condicional (if, elif, else):
 
+- Permite executar um bloco de código somente se uma condição for verdadeira.
+- A estrutura é composta por um "if" seguido por uma condição. Se a condição for verdadeira, o bloco de código dentro do "if" é executado. Caso contrário, o programa verifica se existem cláusulas "elif" (abreviação de "else if") com condições adicionais. Se alguma dessas condições for verdadeira, o bloco de código associado à primeira condição verdadeira "elif" é executado. Caso nenhuma das condições anteriores seja verdadeira, o bloco de código dentro de "else" (opcional) é executado.
 
+#### Estrutura de Repetição (for):
 
+- Permite executar um bloco de código repetidamente para cada elemento de uma sequência (por exemplo, uma lista, string, tupla, etc.).
+- O loop "for" itera sobre os elementos da sequência, e a cada iteração, o bloco de código associado é executado.
 
+#### Estrutura de Repetição (while):
 
+- Permite executar um bloco de código repetidamente enquanto uma condição for verdadeira.
+- O bloco de código é executado repetidamente até que a condição especificada seja falsa.
 
+#### Controle de Loop (break e continue):
 
+- O "break" é usado para interromper um loop prematuramente, quando uma condição é atendida.
+- O "continue" é usado para pular a iteração atual de um loop e passar para a próxima iteração.
 
-
+<Exemplos em código - ex004>
 
 <center>............................................................................................................................................................................</center>
 
