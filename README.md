@@ -42,7 +42,7 @@ Bem... há varias formas de utilizarmos na prática o python. Aqui, utilizei o I
 
 ------
 
-##### Resumão Sobre Variáveis e Atribuição de Valores
+#### Resumão Sobre Variáveis e Atribuição de Valores
 
 **Declaração de variáveis:**
 
