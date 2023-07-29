@@ -30,8 +30,7 @@ Caso contrário, vamos ver agora um passo a passo da instalação (depois irei a
 8. Após a instalação ser concluída, você pode abrir o prompt de comando (no Windows, pressione Win + R, digite "cmd" e pressione Enter) e digitar "python" para verificar se o Python foi instalado corretamente, como fizemos inicialmente.
 
 
-
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 ####Linguagem Python
 
@@ -43,13 +42,46 @@ Bem... há varias formas de utilizarmos na prática o python. Aqui, utilizei o I
 
 ##### Variáveis e Atribuição de Valores
 
+**Declaração de variáveis:**
+
+1. Em Python, você não precisa declarar explicitamente o tipo de dado de uma variável. Apenas atribua um valor a ela e Python cuidará do resto.
+2. **Atribuição de valores:**
+   Para atribuir um valor a uma variável, utilize o operador de atribuição (=) seguido pelo valor que deseja armazenar.
+3. **Nomes de variáveis:**
+
+- O nome de uma variável pode conter letras, números e o caractere de sublinhado (_).
+- O primeiro caractere do nome da variável não pode ser um número.
+- Python é sensível a maiúsculas e minúsculas, ou seja, diferencia maiúsculas de minúsculas. Por exemplo, "valor" e "Valor" são duas variáveis diferentes.
+
+4. **Reatribuição de valores:**
+   Você pode alterar o valor de uma variável simplesmente atribuindo um novo valor a ela.
+5. **Tipos de dados - Tipos Primitivos :**
+   As variáveis em Python podem conter diferentes tipos de dados, como 
+   inteiros (int), números de ponto flutuante (float), strings (str), 
+   listas (list), dicionários (dict), entre outros. O tipo de dado é 
+   inferido automaticamente quando você atribui um valor à variável.
+
+<Exemplos em código>
+
+------
 
 
 
 
 
 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+
+
+
+
+
+
+
+
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 Glossário:
 
