@@ -149,9 +149,43 @@ O controle de fluxo em Python é essencial para direcionar a execução do códi
 - O "break" é usado para interromper um loop prematuramente, quando uma condição é atendida.
 - O "continue" é usado para pular a iteração atual de um loop e passar para a próxima iteração.
 
+#### Cores no Terminal
+
+Os códigos ANSI são uma forma de adicionar formatação de texto ao imprimir no terminal, permitindo que você altere cores de fundo, cores do texto, estilo do texto e até mesmo a posição do cursor. No Python, você pode utilizar esses códigos ANSI para adicionar cores e outros efeitos visuais ao seu texto.
+
+Códigos ANSI para cores no terminal:Os códigos ANSI são sequências de escape que começam com o caractere de escape `\033` (também representado como `\x1b` ou `\u001b`). Eles são seguidos por um conjunto de números separados por ponto e vírgula, que especificam as propriedades de formatação. Para adicionar cores, geralmente usamos códigos ANSI que começam com `\033[`, seguidos por um número para representar a cor desejada.
+
+Exemplo:
+
+- `\033[31m` para cor vermelha
+- `\033[32m` para cor verde
+- `\033[33m` para cor amarela
+
+1. Estilos de texto:Você pode usar códigos ANSI para adicionar estilos ao texto, como negrito, sublinhado e piscando. Alguns exemplos:
+
+- `\033[1m` para negrito
+- `\033[4m` para sublinhado
+- `\033[5m` para piscando
+
+1. Resetar a formatação:Após usar códigos ANSI para formatar o texto, é recomendado que você adicione `\033[0m` para redefinir as configurações e evitar que a formatação se aplique ao texto posterior.
+
 <Exemplos em código - ex004>
 
-<center>............................................................................................................................................................................</center>
+------
+
+### Estrutura de Repetição - FOR
+
+
+
+
+
+
+
+
+
+
+
+------
 
 Glossário:
 
