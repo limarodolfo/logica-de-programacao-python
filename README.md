@@ -175,6 +175,32 @@ Exemplo:
 
 ### Estrutura de Repetição - FOR
 
+Em Python, existem duas estruturas principais de repetição: `while` e `for`. Ambas permitem que você execute um bloco de código várias vezes com base em uma condição ou em um conjunto de elementos.
+
+**Estrutura de repetição com while:**
+
+O `while` repete um bloco de código enquanto uma condição específica for verdadeira. A ideia é que o bloco de código continuará sendo executado repetidamente até que a condição seja falsa.
+
+**Estrutura de repetição com for:**
+
+O `for` é usado para percorrer uma sequência de elementos, como uma lista, tupla ou string. Ele executará um bloco de código para cada elemento na sequência.
+
+Sintaxe do comando **FOR** em Python é a seguinte:
+
+**for** item **in range**(início, fim, passo):
+
+​           **item **    
+
+
+
+Podemos usar o `break` para sair de um loop antes que a condição seja falsa, e o `continue` para pular a iteração atual e ir para a próxima.
+
+<Exemplos em código - ex006>
+
+------
+
+
+
 
 
 
