@@ -179,7 +179,18 @@ Em Python, existem duas estruturas principais de repetição: `while` e `for`. A
 
 **Estrutura de repetição com while:**
 
-O `while` repete um bloco de código enquanto uma condição específica for verdadeira. A ideia é que o bloco de código continuará sendo executado repetidamente até que a condição seja falsa.
+O `while` repete um bloco de código enquanto uma condição específica for verdadeira. ssa estrutura de repetição executa um ciclo para cada elemento do objeto que está sendo iterado. Nas vezes em que precisamos que determinada variável seja incrementado ou decrementada a cada ciclo, a forma mais simples, é gerando uma lista com a função **range()**.
+
+Sintaxe do comando **WHILE** em Python é a seguinte:
+
+**while** condição:
+
+​           **comando_verdadeiro**
+
+Os comandos (ou instruções) dentro do corpo da estrutura **while** são executados (ou repetidos) ENQUANTO a condição for verdadeira 
+(True).
+​                    Quando a condição se torna falsa (False), os 
+comandos não são executados e o programa continua depois da instrução **while**.
 
 **Estrutura de repetição com for:**
 
@@ -191,11 +202,9 @@ Sintaxe do comando **FOR** em Python é a seguinte:
 
 ​           **item **    
 
-
-
 Podemos usar o `break` para sair de um loop antes que a condição seja falsa, e o `continue` para pular a iteração atual e ir para a próxima.
 
-<Exemplos em código - ex006>
+<Exemplos em código - ex006, ex007>
 
 ------
 
