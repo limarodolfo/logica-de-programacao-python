@@ -208,19 +208,128 @@ Podemos usar o `break` para sair de um loop antes que a condição seja falsa, e
 
 ------
 
+### Estrutura de Dados
+
+Estas estruturas resolvem um tipo de problema e podem ser úteis em diversas situações.  As principais estruturas são as Listas, Sets, Dicionários e Tuplas.
+
+####     **Listas**
+
+Uma lista é a estrutura de dados mais básica do Python e armazena os dados em sequência, onde cada elemento possui sua posição na lista, denominada de índice. O primeiro elemento é sempre o índice zero e a cada elemento inserido na lista esse valor é    incrementado.
+
+No Python, uma lista pode armazenar qualquer tipo de dado primitivo (string, inteiro, float, etc).
+
+##### **Declarando Listas**
+
+Para a criação de uma lista no Python, a sintaxe é a seguinte:
+
+```python
+nome_da_lista = [] # Criação de uma lista vazianome_da_lista = [1, 2, 3] # Criação de uma lista de inteirosnome_da_lista = [1, "Olá, mundo!", 1.1] # Criação de uma lista com vários tipos diferentes
+```
+
+Podemos também criar listas dentro de outras listas. Essas são chamadas de nested lists e sua sintaxe é a seguinte:
+
+```python
+nome_da_lista = ["Olá, mundo",  [1, 2, 3], ["outra_lista"]]
+```
+
+####     **Tuplas**
+
+Uma tupla é uma estrutura bastante similar a uma lista, com apenas uma diferença: **os elementos inseridos em uma tupla não podem ser alterados**, diferente de uma lista onde podem ser    alterados livremente. Sendo assim, em um primeiro momento, podemos pensar em uma tupla como uma lista que não pode ser alterada, mas não é bem assim…
+
+É certo que as tuplas possuem diversas características das listas, porém os usos são distintos. As listas são destinadas a serem sequências homogêneas, enquanto que as Tuplas são estruturas de dados heterogêneas.
+
+Sendo assim, apesar de bastante similares, a tupla é utilizada para armazenar dados de tipos diferentes, enquanto que a lista é para dados do mesmo tipo.
+
+##### **Tuplas x Listas**
+
+As tuplas possuem algumas vantagens com relação às listas, que são:
+
+- Como as tuplas são imutáveis, a iteração sobre elas é mais rápida e, consequentemente, possuem um ganho de desempenho com relação às listas;
+- Tuplas podem ser utilizadas como chave para um dicionário, já que seus elementos são imutáveis. Já com a lista, isso não é possível;
+- Se for necessário armazenar dados que não serão alterados, utilize uma tupla. Isso garantirá que esses sejam protegidos de alterações posteriores.
+
+##### **Declarando Tuplas**
+
+A sintaxe para criação de uma tupla, assim como uma lista, também é bem simples. Ao invés de se utilizar colchetes (listas), são utilizados parênteses, como podemos ver abaixo:
+
+```python
+nome_da_tupla = (1, 2, 3) #tupla de inteirosnome_da_tupla = (1, "olá", 1.5) #tupla heterogênea
+```
+
+####     **Sets**
+
+No Python, os sets são uma coleção de itens desordenada, parcialmente imutável e que não podem conter elementos duplicados. Por ser parcialmente imutável, os sets possuem permissão de adição e remoção de elementos.
+
+Além disso, os sets são utilizados, normalmente, com operações matemáticas de união, interseção e diferença simétrica, conforme veremos nos próximos tópicos.
+
+##### **Declarando Sets**
+
+Para a criação de um set no Python há duas formas: A primeira é bem similar às listas e tuplas, porém utilizando chaves **{}** para determinar os elementos do set:
+
+```python
+nome_do_set = {1, 2, 3, 4}
+
+```
+
+A segunda é utilizando o método **set** presente no Python:
+
+```python
+nome_do_set = set([1, 2, 3, 4])
+```
+
+####     **Dicionários**
+
+No Python, os dicionários são coleções de itens desordenados com uma diferença bem grande quando comparados às outras coleções (*listas, sets, tuplas, etc*): **um elemento dentro de um dicionário possui uma chave atrelada a ele, uma espécie de identificador**.    Sendo assim, é muito utilizado quando queremos armazenar dados de forma organizada e que possuem identificação única (como acontece em bancos de dados).
+
+| Chaves | Valores         |
+| ------ | --------------- |
+| Nome   | Aelin           |
+| Idade  | 31              |
+| Cidade | Areia Branca/RN |
+
+Onde cada valor é “atrelado” à uma chave, seu identificador. Vale lembrar que, por necessitar que cada valor possua uma chave relacionada a ele, as chaves dos dicionários devem ser únicas para que possam ser acessadas, também, através do seu índice.
+
+**ATENÇÃO:** As chaves também não são armazenadas em qualquer ordem, elas apenas são associadas aos valores que pertencem.
+
+##### **Declarando Dicionários**
+
+Existem duas formas de se criar um dicionário utilizando o Python. A primeira delas é utilizando chaves ( {} ) e separando os elementos das chaves com dois pontos ( : ) e os outros elementos por vírgula ( , ):
+
+```python
+nome_do_dicionario = {1: ‘João’, 2: ‘José’}nome_do_dicionario = {‘nome’: ‘João’, ‘sobrenome’: ‘Silva’}
+```
+
+A segunda forma é utilizando o método **dict()** com o dicionário sendo passado como parâmetro:
+
+```python
+nome_do_dicionario = dict({1: ‘João’, 2: ‘José’})nome_do_dicionario = dict({‘nome’: ‘João’, ‘sobrenome’: ‘Silva’})
+```
+
+
+
+### Listas
+
+Vamos agora aprofundar o nosso estudo em torno da estrutura de dados* "lista"*. Não se preocupe, que o estudo anterior também irá se aplicar aqui, pois precisamos das estruturas de repetição    para percorrer as listas.
+
+Trabalhar com listas nos permite resolver vários problemas. Você pode criar listas de cada um dos tipos básicos e até mesmo de outras listas. 
+
+**Mas, o quem vem a ser uma lista? **
+
+*Ora tenho certeza que você já criou uma lista alguma vez na vida. Podemos citar diversos exemplos, como uma lista de compras no supermercado, a lista dos seus filmes favoritos, a lista das matérias que você precisa estudar mais.*
+
+Em Python, uma lista é uma sequência mutável de n valores que podem ser de qualquer tipo
+(inclusive outras listas, tuplas e dicionários).
+De forma simples, uma lista pode ser entendida como um vetor de elementos que podem ser de
+qualquer tipo. As listas são exatamente iguais às Strings, exceto pelo fato de Strings serem
+imutáveis e listas serem mutáveis.
+
+As listas podem ser percorridas, “fatiadas” e concatenadas da mesma forma que as Strings. A diferença é que em se tratando de Strings, cada elemento é um caractere e, em se tratando de listas, cada elemento pode ser qualquer tipo de variável. Além disso, uma String pode ser convertida para uma lista (como já foi visto) e uma lista pode ser convertida para uma string.
 
 
 
 
 
 
-
-
-
-
-
-
-------
 
 Glossário:
 
