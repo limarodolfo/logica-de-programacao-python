@@ -313,7 +313,7 @@ Vamos agora aprofundar o nosso estudo em torno da estrutura de dados* "lista"*. 
 
 Trabalhar com listas nos permite resolver vários problemas. Você pode criar listas de cada um dos tipos básicos e até mesmo de outras listas. 
 
-**Mas, o quem vem a ser uma lista? **
+**Mas, o quem vem a ser uma lista?** 
 
 *Ora tenho certeza que você já criou uma lista alguma vez na vida. Podemos citar diversos exemplos, como uma lista de compras no supermercado, a lista dos seus filmes favoritos, a lista das matérias que você precisa estudar mais.*
 
