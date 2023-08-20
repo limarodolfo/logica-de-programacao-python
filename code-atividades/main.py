@@ -1,16 +1,34 @@
-# This is a sample Python script.
+import calcArea
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def main():
+    print("Cálculo das áreas de figuras geométricas:")
+    print("1. Círculo")
+    print("2. Triângulo")
+    print("3. Retângulo")
+
+    try:
+        opcao = int(input("Qual figura deseja calcular a área? "))
+
+        if opcao < 1 or opcao > 3:
+            print("ERRO! Essa não é uma opção válida!")
+        else:
+            if opcao == 1:
+                raio = float(input("Digite o raio do círculo: "))
+                area = calcArea.calcular_area_circulo(raio)
+                print(f"A área do círculo é: {area:.2f}")
+            elif opcao == 2:
+                base = float(input("Digite a base do triângulo: "))
+                altura = float(input("Digite a altura do triângulo: "))
+                area = calcArea.calcular_area_triangulo(base, altura)
+                print(f"A área do triângulo é: {area:.2f}")
+            elif opcao == 3:
+                largura = float(input("Digite a largura do retângulo: "))
+                altura = float(input("Digite a altura do retângulo: "))
+                area = calcArea.calcular_area_retangulo(largura, altura)
+                print(f"A área do retângulo é: {area:.2f}")
+    except ValueError:
+        print("ERRO! Essa não é uma opção válida!")
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+if __name__ == "__main__":
+    main()
