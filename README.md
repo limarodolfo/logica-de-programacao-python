@@ -10,8 +10,6 @@ No entanto, o passo a passo a seguir é eficaz para ajudar aqueles que não poss
 
 OBS: Também pode servir para quem não sabe (esqueceu) é só verificar se você tem o Python instalado na sua máquina.
 
-
-
 **NO CMD:**
 
 **Digite:** `python --version`
@@ -36,9 +34,16 @@ Caso contrário, vamos ver agora um passo a passo da instalação (depois irei a
 
 ##### Interpretador IDLE
 
-Bem... há varias formas de utilizarmos na prática o python. Aqui, utilizei o IDLE para testes iniciais com a linguagem e para aprender um pouco sobre a IDE que vem junto a instalação padrão do Pyhton. Segue apenas um resuminho sobre:
+Bem... há varias formas de utilizarmos na prática o python. Aqui, utilizei o IDLE para testes iniciais com a linguagem e o Pycharm. Para aprender um pouco sobre a IDE que vem junto a instalação padrão do Pyhton. Segue apenas um resuminho sobre:
 
 *IDLE* oferece uma interface gráfica simples que facilita a interação com o interpretador Python. Ele inclui recursos como um editor de texto com realce de sintaxe, suporte para execução interativa de código, histórico de comandos, visualização de resultados, depuração passo a passo, a capacidade de abrir múltiplos editores de código, autocompletar, exibição da árvore de análise sintática e suporte a extensões de terceiros. Uma das principais características do IDLE é a capacidade de executar código Python interativamente, o que significa que você pode digitar instruções e ver os resultados imediatamente. 
+
+##### Pycharm 
+
+O PyCharm é um ambiente de desenvolvimento integrado (IDE) altamente popular e amplamente utilizado para programação em Python. Ele é desenvolvido pela JetBrains e oferece uma série de recursos e 
+ferramentas que visam facilitar o processo de desenvolvimento de software em Python.
+
+
 
 ------
 
@@ -359,14 +364,33 @@ trechos específicos e tornando o código mais legível.
 Python tem um comportamento interessante ao passar argumentos para funções. A depender do tipo de dado, a passagem pode se comportar como por valor ou por referência.
 
 - **Por Valor:** Tipos imutáveis como inteiros, strings e tuplas são passados por valor. Isso significa que qualquer alteração feita no parâmetro dentro da função não afeta o valor original.
-
 - **Por Referência:** Tipos mutáveis como listas, dicionários e conjuntos são passados por referência. Portanto, se você modificar o parâmetro dentro da função, o valor original também será alterado.
 
-  ​
+<Exemplos em código - ex030, ex035>
 
 ### Bibliotecas
 
 As bibliotecas em Python são uma das principais razões para a popularidade e extensão da linguagem. Eles nos permitem que aproveitemos os recursos preexistentes sem ter que reinventar a roda e, que assim, acelerar o nosso processo de desenvolvimento.
+
+**Uma biblioteca em Python é uma coleção de módulos que fornecem funcionalidades prontas para uso.** Estas funcionalidades podem variar de operações matemáticas simples a complexos frameworks de desenvolvimento web.
+
+- **Bibliotecas Padrão**: Python inclui uma vasta biblioteca padrão que oferece funcionalidades para muitas operações comuns, como manipulação de arquivos, operações de rede e gerenciamento de sistema. Essas bibliotecas são parte integrante da instalação do Python e podem ser acessadas sem qualquer instalação adicional.
+- **Bibliotecas de Terceiros**: Além das bibliotecas padrão, há uma imensa variedade de bibliotecas de terceiros disponíveis para Python que podem ser instaladas usando ferramentas como pip. Essas bibliotecas abrangem uma vasta gama de funcionalidades, de análise de dados a desenvolvimento de jogos.
+
+##### Utilização
+
+Usar uma biblioteca em Python geralmente requer duas etapas. Primeiro, você precisa instalar a biblioteca (a menos que seja parte da biblioteca padrão). Isso geralmente é feito utilizando pip. Depois de instalado, você pode importar a biblioteca ou partes dela em seu código e usar suas funcionalidades.
+
+##### Criação
+
+Criar sua própria biblioteca pode parecer uma tarefa assustadora, mas é essencial para organizar seu código de forma modular e reutilizável. Se você tem um conjunto de funções que você acha que pode utilizar em múltiplos projetos, ou acredita que outros possam se beneficiar, pode ser hora de empacotá-los em uma biblioteca.
+
+- **Organização do Código**: O primeiro passo é organizar seu código. Crie um diretório para sua biblioteca e coloque seu código em um ou mais arquivos `.py` neste diretório.
+- **Criar setup.py**: Este é o arquivo de configuração necessário para empacotar sua biblioteca para distribuição. Ele contém informações sobre a biblioteca e suas dependências.
+
+Entender as bibliotecas e como elas operam é fundamental para qualquer desenvolvedor Python, seja utilizando funcionalidades preexistentes para acelerar seu trabalho ou compartilhando suas próprias criações com a comunidade de desenvolvedores Python.
+
+<Exemplos em código - ex036, ex037, ex038>
 
 
 
