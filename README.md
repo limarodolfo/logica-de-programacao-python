@@ -325,7 +325,48 @@ imutáveis e listas serem mutáveis.
 
 As listas podem ser percorridas, “fatiadas” e concatenadas da mesma forma que as Strings. A diferença é que em se tratando de Strings, cada elemento é um caractere e, em se tratando de listas, cada elemento pode ser qualquer tipo de variável. Além disso, uma String pode ser convertida para uma lista (como já foi visto) e uma lista pode ser convertida para uma string.
 
+____________
 
+### Modularização
+
+Técnica de programação que visa a organização do código em partes menores, reutilizáveis e mais gerenciáveis. Ao dividir o código em módulos ou funções, o programador pode focar em resolver pequenas partes do problema por vez, tornando o código mais legível e facilitando a manutenção. 
+
+##### Escopo de Variáveis 
+
+O escopo de uma variável refere-se ao contexto no qual essa variável está definida e por onde pode ser acessada. 
+
+- **Variáveis Locais:** São definidas dentro de uma função e não podem ser acessadas fora dela.
+
+- **Variáveis Globais:** São definidas no corpo principal do código e podem ser acessadas através
+   de sua palavra-chave em outra parte do código e, até mesmo, em funções.
+
+  ​
+
+##### Funções
+
+Funções são blocos de 
+código que executam uma tarefa específica e que podem ser reutilizados. 
+Elas permitem a modularização do código, reduzindo a repetição de 
+trechos específicos e tornando o código mais legível.
+
+- **Definição:** Uma função é definida usando a palavra-chave `def`, seguida pelo nome da função e parênteses.
+- **Chamada:** Uma vez definida, uma função pode ser chamada pelo seu nome, seguida de parênteses.
+
+
+
+##### Passagem de Parâmetro
+
+Python tem um comportamento interessante ao passar argumentos para funções. A depender do tipo de dado, a passagem pode se comportar como por valor ou por referência.
+
+- **Por Valor:** Tipos imutáveis como inteiros, strings e tuplas são passados por valor. Isso significa que qualquer alteração feita no parâmetro dentro da função não afeta o valor original.
+
+- **Por Referência:** Tipos mutáveis como listas, dicionários e conjuntos são passados por referência. Portanto, se você modificar o parâmetro dentro da função, o valor original também será alterado.
+
+  ​
+
+### Bibliotecas
+
+As bibliotecas em Python são uma das principais razões para a popularidade e extensão da linguagem. Eles nos permitem que aproveitemos os recursos preexistentes sem ter que reinventar a roda e, que assim, acelerar o nosso processo de desenvolvimento.
 
 
 
