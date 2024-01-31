@@ -345,7 +345,7 @@ O escopo de uma variável refere-se ao contexto no qual essa variável está def
 - **Variáveis Globais:** São definidas no corpo principal do código e podem ser acessadas através
    de sua palavra-chave em outra parte do código e, até mesmo, em funções.
 
-  ​
+  
 
 ##### Funções
 
@@ -394,9 +394,11 @@ Entender as bibliotecas e como elas operam é fundamental para qualquer desenvol
 
 
 
+Teste de autenticação via: ssh
 
 
-Glossário:
+
+Glossário: 
 
 Interpretador:
 
