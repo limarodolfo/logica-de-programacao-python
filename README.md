@@ -394,7 +394,9 @@ Entender as bibliotecas e como elas operam é fundamental para qualquer desenvol
 
 
 
-Teste de autenticação via: ssh
+Teste de autenticação via: ssh - 1
+
+Teste de autenticação via: ssh - 2
 
 
 
