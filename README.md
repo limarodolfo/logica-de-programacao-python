@@ -392,6 +392,7 @@ Entender as bibliotecas e como elas operam é fundamental para qualquer desenvol
 
 <Exemplos em código - ex036, ex037, ex038>
 
+Teste de autenticação via SSH
 
 Glossário: 
 
