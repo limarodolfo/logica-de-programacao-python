@@ -394,6 +394,8 @@ Entender as bibliotecas e como elas operam é fundamental para qualquer desenvol
 
 Teste de autenticação via SSH
 
+Teste de autenticação via SSH (segunda versão)
+
 Glossário: 
 
 Interpretador:
